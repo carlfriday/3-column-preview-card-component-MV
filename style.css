@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+ background-color: hsl(0, 0%, 95%);
+ min-height: 100vh;
+ /* min-width: 100vh; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 15px;
+ font-family: 'Lexend Deca',
+  sans-serif;
+ font-weight: 400;
+}
+
+.container {
+ max-width: 375px;
+ margin: 10px auto;
+ display: flex;
+flex-direction: column;
+}
+
+.wrapper {
+ display: flex;
+ flex-direction: column;
+ border-radius: 12px;
+ margin: 2em;
+ overflow: hidden;
+ width: 250px;
+}
+
+ .box1 {
+   background-color: hsl(31, 77%, 52%);
+  }
+ 
+  .box2 {
+   background-color: hsl(184, 100%, 22%);
+  }
+ 
+  .box3 {
+   background-color: hsl(179, 100%, 13%);
+  }
+
+    .box {
+     padding: 35px;
+    }
+
+        .box h2 {
+         font-family: 'Big Shoulders Display',
+          cursive;
+         text-transform: uppercase;
+         color: hsl(0, 0%, 95%);
+         font-size: 30px;
+}
+.box p {
+ color: hsla(0, 0%, 100%, 0.75);
+ line-height: 1.6;
+}
+
+.box a {
+ text-decoration: none;
+ background-color: hsla(0, 0%, 100%, 0.75);
+ padding: 10px 20px;
+ border-radius: 26px;
+ display: inline-block;
+ margin-top: 10px;
+ border: 2px solid hsl(0, 0%, 95%);
+ transition: all 2s ease;
+}
+
+.box1 a {
+ color: hsl(31, 77%, 52%);
+ ;
+}
+
+.box2 a {
+ color: hsl(184, 100%, 22%);
+}
+
+.box3 a {
+ color: hsl(179, 100%, 13%);
+}
+
+.box a:hover {
+ color: hsl(0, 0%, 95%);
+ background: transparent;
+}
