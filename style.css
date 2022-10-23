@@ -60,7 +60,7 @@ flex-direction: column;
 
 .box a {
  text-decoration: none;
- background-color: hsla(0, 0%, 100%, 0.75);
+ background-color:hsl(0, 0%, 95%) ;
  padding: 10px 20px;
  border-radius: 26px;
  display: inline-block;
