@@ -21,6 +21,8 @@ body {
 flex-direction: column;
 }
 
+
+
 .wrapper {
  display: flex;
  flex-direction: column;
@@ -85,4 +87,16 @@ flex-direction: column;
 .box a:hover {
  color: hsl(0, 0%, 95%);
  background: transparent;
+}
+
+@media (max-width:760px) {
+   .wrapper{
+    flex-direction: row;
+    width: 50em;
+  margin: 0;
+  }
+.container {
+  flex-direction: row;
+  max-width: 50em;
+}
 }
